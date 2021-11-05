@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import useSWR from "swr";
 import Searchbox from "./Components/Search/Search";
 import Bookmarks from "./Components/Bookmarks/Bookmarks";
 
@@ -19,7 +18,7 @@ function App() {
     axios.get(SpreadSheetConnection).then((response) => {
       setData(response.data);
     });
-  }, []);
+  }, [SpreadSheetConnection]);
 
   return (
     <DataContext.Provider value={data}>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { SearchCircleIcon, SearchIcon } from "@heroicons/react/solid";
+import { SearchIcon } from "@heroicons/react/solid";
 const Search = () => {
   // const [searchTerm, setSearchTerm] = useState("");
   const [searchEngine, setSearchEngine] = useState(
