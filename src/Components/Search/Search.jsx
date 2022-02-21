@@ -50,12 +50,16 @@ const Search = () => {
     hover:shadow-lg
     "
     >
-      <div className=" flex flex-row items-center justify-center">
+      <div
+        className=" flex flex-row items-center justify-center"
+        style={{ gridColumn: "" }}
+      >
         <SearchIcon className="ml-4 w-6 h-6 text-gray-400" />
         <input
           type="search"
           name=""
           id=""
+          width="110%"
           className="
           mx-2 place-self-stretch	
           rounded-full w-full bg-transparent dark:text-gray-100 outline-none"

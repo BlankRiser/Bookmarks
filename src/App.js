@@ -11,7 +11,6 @@ export const DataContext = React.createContext([]);
 
 function App() {
   const [data, setData] = useState([]);
-
   const SpreadSheetConnection = process.env.REACT_APP_SHEET_BEST_CONNECTION_URL;
 
   useEffect(() => {

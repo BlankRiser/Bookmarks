@@ -2,15 +2,13 @@
 
 A start page developed using React and Google Sheets as database
 
-###
-
-- ReactJs
-- TailwindCss
-- Hero icons
-
 ### Data Storage
 
 - [Pantry](https://getpantry.cloud/): free json storage
+
+### Modules
+
+- [react-spring-bottom-sheet](https://github.com/stipsan/react-spring-bottom-sheet)
 
 ### References
 
